@@ -1,0 +1,79 @@
+/* Gaya untuk aplikasi */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #00b3ff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  #cart-container {
+    margin-top: 20px;
+  }
+  
+  #cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  #cart-table th, #cart-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #cart-summary {
+    text-align: right;
+  }
+  
+  #checkout-button {
+    background: #28a745;
+  }
+  
+  #checkout-button:hover {
+    background: #218838;
+  }
+  

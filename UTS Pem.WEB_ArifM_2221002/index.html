@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roti Meunak</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Roti Meunak</h1>
+  </header>
+
+  <div class="container">
+    <!-- Daftar Produk -->
+    <section id="product-section">
+      <h2>Daftar Minuman/Makanan</h2>
+      <div class="product-list" id="product-list"></div>
+    </section>
+
+    <!-- Keranjang Belanja -->
+    <section id="cart-section">
+      <h2>Keranjang Belanja</h2>
+      <div id="cart-container">
+        <table id="cart-table">
+          <thead>
+            <tr>
+              <th>Nama Produk</th>
+              <th>Harga</th>
+              <th>Jumlah</th>
+              <th>Total</th>
+              <th>Hapus Produk</th>
+            </tr>
+          </thead>
+          <tbody id="cart-items"></tbody>
+        </table>
+        <div id="cart-summary">
+          <p>Total Pembayaran: <span id="cart-total">0</span> Rupiah</p>
+          <button id="checkout-button" onclick="checkout()">Checkout</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
